@@ -11,8 +11,5 @@
   "license": "ISC",
   "bin": {
     "guess": "./bin/index.js"
-  },
-  "dependencies": {
-    "yargs": "^17.7.2"
   }
 }
