@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "guess": "./bin/index.js",
+    "analyze": "./bin/analyze.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.4.0",
     "fs": "^0.0.1-security",
     "fs-extra": "^11.1.1",
     "path": "^0.12.7",
